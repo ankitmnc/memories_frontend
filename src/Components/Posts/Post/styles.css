@@ -1,0 +1,37 @@
+
+.card
+{
+    border-radius: 15px;
+    border-style: bold;
+    margin: 1rem;
+    background-color: rgb(208 216 255);
+    border: none;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .card-img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    opacity: 0.8;
+    max-height: 250px;
+
+    background: rgba(0, 0, 0, 0.5);
+  }
+.cardbody {
+    padding-bottom: 4rem;
+}
+.button-group
+{
+   position: absolute;
+   margin-top: 10px;
+   bottom: 1.2rem;
+}
